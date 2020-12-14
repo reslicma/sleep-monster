@@ -55,7 +55,7 @@
       return false
     }
 
-    const startTime = +new Date()
+    var startTime = +new Date()
     try {
       while (+new Date() - startTime < delay) {
         continue
@@ -68,7 +68,7 @@
   }
 
   // class Sleep
-  const Sleep = function () {
+  var Sleep = function () {
     this.asyncSleep = function (delay) {
       return asyncSleep(delay)
     }

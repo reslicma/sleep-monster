@@ -29,7 +29,7 @@ npm install sleep-monster
 
 默认推荐使用`asyncSleep`和`syncSleep`这两个函数，默认参数单位是毫秒。所有可用函数如下：
 
-同步函数（阻塞线程）：
+异步函数（非阻塞线程）：
 
 - `asyncSleep` 单位：毫秒
 - `asyncSleepSeconds` 单位：秒
@@ -39,7 +39,7 @@ npm install sleep-monster
 - `asyncSleepMonths` 单位：月
 - `asyncSleepYears` 单位：年
 
-异步函数（非阻塞线程）：
+同步函数（阻塞线程）：
 
 - `syncSleep` 单位：毫秒
 - `syncSleepSeconds` 单位：秒
